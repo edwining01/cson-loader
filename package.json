@@ -13,7 +13,7 @@
     "url": "http://unlicense.org/"
   },
   "scripts": {
-    "prepublish": "coffee -o lib/ -c src/"
+    "prepare": "coffee -o lib/ -c src/"
   },
   "dependencies": {
     "cson-parser": "^4.0.1"
